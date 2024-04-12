@@ -1,6 +1,6 @@
 import '../css/style.css';
 import React from 'react';
-import logo from '../logo.svg';
+import contacto from '../images/contacto.png';
 import web_desing from '../images/web-desing.jpg';
 import profile from '../images/1678488008176.jpg';
 import empresas from '../images/edificios.png';
@@ -9,6 +9,8 @@ import estrena from '../images/carro-deportivo.png';
 import directorio from '../images/directorio-telefonico.png';
 import refacciones from '../images/spare-parts.png';
 import buscador from '../images/buscador.png';
+import maquinaria from '../images/excavador.png';
+import camiones from '../images/camion.png';
 function Prueba() {
     let WhatsApp = 'https://api.whatsapp.com/send?phone=5574703963&text=Hola,%20Donovan%20me%20interesa%20tu%20perfíl.';
     let Linkedin = 'https://www.linkedin.com/in/donovan-eduardo-hern%C3%A1ndez-guerrero-5948a8149/';
@@ -20,6 +22,8 @@ function Prueba() {
     let url_refacciones = 'https://zapata.com.mx/greatdane/refacciones';
     let url_directorio = 'https://www.zapata.com.mx/directorio';
     let url_buscador = 'https://zapata.com.mx/buscador';
+    let url_maquinaria = 'https://zapata.com.mx/maquinaria-pesada';
+    let url_camiones = 'https://zapata.com.mx/freightliner';
     function Correo() {
         document.getElementById('contact').innerHTML = '';
         document.getElementById('contact').innerHTML = 'donovanhg180@gmail.com';
@@ -70,7 +74,13 @@ function Prueba() {
                                 <div className='descripcion'>
                                     <strong>EFD Programador Web Jr</strong>
                                     <br/><br/>
-                                    Programación de módulos para el sistema interno de la empresa. 
+                                    Participé activamente en el desarrollo de un CRM, 
+                                    durante mis prácticas profesionales. Contribuí a la implementación 
+                                    y mantenimiento de diversas funci onalidades clave, colaborando estrechamente 
+                                    con el equipo de desarrollo para asegurar la eficiencia y la usabilidad del sistema. 
+                                    Mis responsabilidades incluyeron la programación en Codeigniter, la integración de 
+                                    tecnologías front-end como HTML, CSS3, JavaScript, jQuery, y la implementación de 
+                                    características avanzadas utilizando Ajax y JSON.
                                 </div>
                             </div>
                             <div className='momento'>
@@ -78,10 +88,7 @@ function Prueba() {
                                 <div className='descripcion'>
                                     <strong>Grupo Zapata Programador Web</strong>
                                     <br/><br/>
-                                    Creación e implementación de módulos nuevos para el sistema 
-                                    interno, mantenimiento a la página oficial de la empresa, desarrollo 
-                                    e innovación de landing pages, desarrollo de funcionalidades 
-                                    especificas a medida de las necesidades.
+                                    Programador web especializado en Laravel con sólidos conocimientos en HTML, CSS3, JavaScript, jQuery, Bootstrap, JSON, Ajax y DataTables. Experiencia en el desarrollo de aplicaciones web eficientes y atractivas, con habilidades para la creación de interfaces dinámicas y funcionales
                                 </div>
                             </div>
                         </div>
@@ -89,7 +96,7 @@ function Prueba() {
 
                     <div className='col-12 col-sm-6 col-md-6 col-lg-3'>
                         <div className="card">
-                            <img src={logo} className="card-img-top App-logo" alt="" />
+                            <img src={contacto} className="card-img-top img-portfolio" alt="" />
                             <div className="card-body">
                                 <strong>MEDIOS DE CONTACTO</strong>
                                 <div className='contacto'>
@@ -143,22 +150,22 @@ function Prueba() {
                             <p className='skill-title'>Frontend</p>
                             <div className='row'>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>HTML5</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>HTML5</p>
                                 </div>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>CSS3</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>CSS3</p>
                                 </div>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>JS</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>JS</p>
                                 </div>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>BOOTSTRAP</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>BOOTSTRAP</p>
                                 </div>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>FLEXBOX</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>FLEXBOX</p>
                                 </div>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>JQUERY</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>JQUERY</p>
                                 </div>
                                
                             </div>
@@ -169,22 +176,22 @@ function Prueba() {
                             <p className='skill-title'>Backend</p>
                             <div className='row'>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>PHP(LARAVEL)</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>PHP(LARAVEL)</p>
                                 </div>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>MYSQL</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>MYSQL</p>
                                 </div>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>PHP(CODEIGNITER)</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>PHP(CODEIGNITER)</p>
                                 </div>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>AJAX</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>AJAX</p>
                                 </div>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>WORKBENCH</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>WORKBENCH</p>
                                 </div>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>JSON</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>JSON</p>
                                 </div>
                                 
                             </div>
@@ -195,22 +202,22 @@ function Prueba() {
                             <p className='skill-title'>Otros Skills</p>
                             <div className='row'>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>JAVA</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>JAVA</p>
                                 </div>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>MVC</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>MVC</p>
                                 </div>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>FILEZILLA</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>FILEZILLA</p>
                                 </div>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>DOMPDF</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>DOMPDF</p>
                                 </div>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>CPANEL</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>CPANEL</p>
                                 </div>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-hand-point-right"></i>DATA TABLES</p>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>DATA TABLES</p>
                                 </div>
                             </div>
                         </div>
@@ -276,6 +283,26 @@ function Prueba() {
                             <div className="card-body">
                                 <p className="card-text">Buscador de agencias</p>
                                 <a target={_blank} className='button-17' href={url_buscador}>Ver sitio</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-6 col-sm-4 col-md-4 col-lg-4'>
+                        <div className="card card-portfolio">
+                            <img src={maquinaria} className="card-img-top img-portfolio" alt="" />
+                            <div className="card-body">
+                                <p className="card-text">Maquinaria pesada</p>
+                                <a target={_blank} className='button-17' href={url_maquinaria}>Ver sitio</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-6 col-sm-4 col-md-4 col-lg-4'>
+                        <div className="card card-portfolio">
+                            <img src={camiones} className="card-img-top img-portfolio" alt="" />
+                            <div className="card-body">
+                                <p className="card-text">Camiones</p>
+                                <a target={_blank} className='button-17' href={url_camiones}>Ver sitio</a>
                             </div>
                         </div>
                     </div>
