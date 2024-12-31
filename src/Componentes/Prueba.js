@@ -4,7 +4,7 @@ import contacto from '../images/contacto.png';
 import web_desing from '../images/web-desing.jpg';
 import profile from '../images/1678488008176.jpg';
 import empresas from '../images/edificios.png';
-import hojalateria from '../images/cubo-de-pintura.png';
+import filtro from '../images/filtrar.png';
 import estrena from '../images/carro-deportivo.png';
 import directorio from '../images/directorio-telefonico.png';
 import refacciones from '../images/spare-parts.png';
@@ -24,6 +24,7 @@ function Prueba() {
     let url_buscador = 'https://zapata.com.mx/buscador';
     let url_maquinaria = 'https://zapata.com.mx/maquinaria-pesada';
     let url_camiones = 'https://zapata.com.mx/freightliner';
+    let url_seminuevos = 'https://www.zapataseminuevos.mx/autos';
     function Correo() {
         document.getElementById('contact').innerHTML = '';
         document.getElementById('contact').innerHTML = 'donovanhg180@gmail.com';
@@ -69,26 +70,29 @@ function Prueba() {
                     <div className='col-12 col-sm-12 col-md-12 col-lg-6'>
                         <h5 className='educationTitle laboral'>Experiencia Laboral</h5>
                         <div className='linea-tiempo'>
+                        <div className='momento'>
+                                <h3>01/12/2024 - Actualmente</h3>
+                                <div className='descripcion'>
+                                    <strong>Infotec Programador Web</strong>
+                                    <br/><br/>
+                                    Implementación de módulos nuevos y funciones específicas a escala, según las necesidades del proyecto.
+                                </div>
+                            </div>
+                            <div className='momento'>
+                                <h3>09/05/2020 - 19/09/2024</h3>
+                                <div className='descripcion'>
+                                    <strong>Grupo Zapata Programador Web</strong>
+                                    <br/><br/>
+                                    He liderado y participado en proyectos exitosos, desde la concepción hasta la implementación, garantizando la eficiencia y la calidad del código.
+                                </div>
+                            </div>
                             <div className='momento'>
                                 <h3>Julio/2019 – Octubre/2019</h3>
                                 <div className='descripcion'>
                                     <strong>EFD Programador Web Jr</strong>
                                     <br/><br/>
                                     Participé activamente en el desarrollo de un CRM, 
-                                    durante mis prácticas profesionales. Contribuí a la implementación 
-                                    y mantenimiento de diversas funci onalidades clave, colaborando estrechamente 
-                                    con el equipo de desarrollo para asegurar la eficiencia y la usabilidad del sistema. 
-                                    Mis responsabilidades incluyeron la programación en Codeigniter, la integración de 
-                                    tecnologías front-end como HTML, CSS3, JavaScript, jQuery, y la implementación de 
-                                    características avanzadas utilizando Ajax y JSON.
-                                </div>
-                            </div>
-                            <div className='momento'>
-                                <h3>09/05/2020 - Actualmente</h3>
-                                <div className='descripcion'>
-                                    <strong>Grupo Zapata Programador Web</strong>
-                                    <br/><br/>
-                                    Programador web especializado en Laravel con sólidos conocimientos en HTML, CSS3, JavaScript, jQuery, Bootstrap, JSON, Ajax y DataTables. Experiencia en el desarrollo de aplicaciones web eficientes y atractivas, con habilidades para la creación de interfaces dinámicas y funcionales
+                                    durante mis prácticas profesionales.
                                 </div>
                             </div>
                         </div>
@@ -167,7 +171,12 @@ function Prueba() {
                                 <div className='col-6 col-sm-6 col-md-6'>
                                     <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>JQUERY</p>
                                 </div>
-                               
+                                <div className='col-6 col-sm-6 col-md-6'>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>VUE 3</p>
+                                </div>
+                                <div className='col-6 col-sm-6 col-md-6'>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>AJAX</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -185,15 +194,17 @@ function Prueba() {
                                     <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>PHP(CODEIGNITER)</p>
                                 </div>
                                 <div className='col-6 col-sm-6 col-md-6'>
-                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>AJAX</p>
-                                </div>
-                                <div className='col-6 col-sm-6 col-md-6'>
                                     <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>WORKBENCH</p>
                                 </div>
                                 <div className='col-6 col-sm-6 col-md-6'>
                                     <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>JSON</p>
                                 </div>
-                                
+                                <div className='col-6 col-sm-6 col-md-6'>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>ORM</p>
+                                </div>
+                                <div className='col-6 col-sm-6 col-md-6'>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>POSTGRESQL</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -219,6 +230,12 @@ function Prueba() {
                                 <div className='col-6 col-sm-6 col-md-6'>
                                     <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>DATA TABLES</p>
                                 </div>
+                                <div className='col-6 col-sm-6 col-md-6'>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>JIRA</p>
+                                </div>
+                                <div className='col-6 col-sm-6 col-md-6'>
+                                    <p className='skill'><i className="skill-icon fas fa-caret-square-right"></i>LARAVEL EXCEL</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -237,15 +254,6 @@ function Prueba() {
                             <div className="card-body">
                                 <p className="card-text">Empresas e Ingreso Digno</p>
                                 <a target={_blank} className='button-17' href={url_empresas}>Ver sitio</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-6 col-sm-4 col-md-4 col-lg-4'>
-                        <div className="card card-portfolio">
-                            <img src={hojalateria} className="card-img-top img-portfolio" alt="" />
-                            <div className="card-body">
-                                <p className="card-text">Hojalatería y pintura</p>
-                                <a target={_blank} className='button-17' href={ur_hojalateria}>Ver sitio</a>
                             </div>
                         </div>
                     </div>
@@ -303,6 +311,16 @@ function Prueba() {
                             <div className="card-body">
                                 <p className="card-text">Camiones</p>
                                 <a target={_blank} className='button-17' href={url_camiones}>Ver sitio</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-6 col-sm-4 col-md-4 col-lg-4'>
+                        <div className="card card-portfolio">
+                            <img src={filtro} className="card-img-top img-portfolio" alt="" />
+                            <div className="card-body">
+                                <p className="card-text">Filtro por marca</p>
+                                <a target={_blank} className='button-17' href={url_seminuevos}>Ver sitio</a>
                             </div>
                         </div>
                     </div>
